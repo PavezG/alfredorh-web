@@ -1,0 +1,194 @@
+/* Header */
+
+.logo {
+    color: #70945d;
+    font-family: 'Heebo', sans-serif;
+}
+
+.menu {
+    background-image: url(./Resources/Header/bitmap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 100px;
+}
+
+.subtitule {
+    text-align: center;
+    color: #544d4d;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(2);
+    text-align: center;
+
+}
+
+.descripcion {
+    text-align: center;
+}
+
+.header img {
+    margin-top: 40px;
+    border-radius: 5%;
+}
+
+
+
+
+/* redes sociales */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.icons {
+    display: flex;
+    column-gap: 25px;
+    justify-content: end;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    border-radius: 50%;
+    outline: 2px solid #70945d;
+    transition-duration: .25s;
+    color: #70945d;
+}
+
+.icon:hover {
+    outline-offset: 4px;
+}
+
+.icon:hover i {
+    animation: shake .25s;
+}
+
+.icon--instagram:hover {
+    background-image: radial-gradient(circle at 30% 107%,
+            #fdf497 0%, #fdf497 5%,
+            #fd5949 45%, #d6249f 60%,
+            #285AEB 90%);
+    outline-color: #a02d76;
+    color: white;
+}
+
+.icon--facebook:hover {
+    background-color: #0077b5;
+    outline-color: #0077b5;
+    color: white;
+
+}
+
+.icon--whatsapp:hover {
+    background-color: #2ea44f;
+    outline-color: #2ea44f;
+    color: white;
+}
+
+@keyframes shake {
+    10% {
+        transform: rotate(15deg);
+    }
+
+    20% {
+        transform: rotate(-15deg);
+    }
+
+    30% {
+        transform: rotate(15deg);
+    }
+
+    40% {
+        transform: rotate(-15deg);
+    }
+}
+
+
+/* section 1 */
+/* #E1F2FB --> color azulito chan */
+
+
+.section_1 {
+    height: 1500px;
+    text-align: center;
+    font-family: 'Courgette';
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./Resources/Section/Fondo_2.png);
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.galeriaHeader p {
+    padding: 25px;
+    text-align: center;
+    width: 1000px;
+    margin-left: 250px;
+
+}
+
+.galeriaHeader .img_1 {
+    width: 1000px;
+    height: 450px;
+    margin-top: 50px;
+    border-radius: 5%;
+}
+
+
+.section_1 .container img {
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.section_2 {
+    height: 700px;
+    text-align: center;
+    font-family: 'Courgette';
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./Resources/Section/Fondo_1.png);
+    max-width: 1500px;
+    margin: 0 auto;
+
+}
+
+
+.section_2 img {
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    padding-bottom: 20px;
+}
+
+
+
+
+.btn-group {
+    text-align: center;
+    display: flex;
+    justify-items: center;
+}
+
+
+
+.containerCards {}
