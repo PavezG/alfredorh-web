@@ -1,7 +1,25 @@
 .header {
     background-image: url(./Resources/Header/FondoHeader.png);
     background-repeat: no-repeat;
-    max-width: 1500px;
     background-size: cover;
-    
+    height: 800px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.header a {
+    border-radius: 5%;
+    font-family: "courgete";
+
+
+
+}
+
+.section_1 {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+    max-width: 1500px;
+    margin: 0 auto;
 }
