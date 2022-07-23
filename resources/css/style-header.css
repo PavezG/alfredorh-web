@@ -2,21 +2,21 @@
     background-image: url(../images/header/Header.jfif);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 auto;
-    text-align: end;
+    margin: 0 auto; 
+    text-align: center;
 }
 
 .header .logo h3 {
     font-family: 'Kalam', cursive;
     color: #0c2468;
     font-size: 50px;
-    text-align: start;
+  
 }
 
 .header .titulo h1 {
     color: #0c2468;
     font-family: 'Great Vibes', cursive;
-    text-align: end;
+   
 }
 
 .header .boton a {
@@ -25,9 +25,7 @@
     margin-bottom: 200px;
 }
 
-@media (min-width: 300px) and (max-width: 500x) { .header{
-    text-align: center;
-} }
+
 
 /* Redes sociales */
 
