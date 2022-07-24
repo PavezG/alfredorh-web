@@ -9,7 +9,6 @@
 .header .logo h3 {
     font-family: 'Kalam', cursive;
     color: #0c2468;
-    padding-left: 650px;
 }
 
 .titulo h1 {
@@ -51,8 +50,7 @@
     justify-content: center;
     text-decoration: none;
     font-size: 26px;
-    border-radius: 40%;
-    outline: 2px solid #70945d;
+    border-radius: 40%;   
     transition-duration: .25s;
     color: #70945d;
     margin-top: 30px;
