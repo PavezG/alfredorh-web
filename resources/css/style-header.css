@@ -79,3 +79,73 @@
     outline-color: #a02d76;
     color: white;
 }
+
+/* section_1 */
+
+
+
+.section_1 {
+    height: 1500px;
+    text-align: center;
+    font-family: 'Courgette';
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./Resources/Section/Fondo_2.png);
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.galeriaHeader p {
+    padding: 25px;
+    text-align: center;
+    width: 1000px;
+    margin-left: 250px;
+
+}
+
+.galeriaHeader .img_1 {
+    width: 1000px;
+    height: 450px;
+    margin-top: 50px;
+    border-radius: 5%;
+}
+
+
+.section_1 .container img {
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.section_2 {
+    height: 700px;
+    text-align: center;
+    font-family: 'Courgette';
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./Resources/Section/Fondo_1.png);
+    max-width: 1500px;
+    margin: 0 auto;
+
+}
+
+
+.section_2 img {
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    padding-bottom: 20px;
+}
+
+
+
+
+.btn-group {
+    text-align: center;
+    display: flex;
+    justify-items: center;
+}
