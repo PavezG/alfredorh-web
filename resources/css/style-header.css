@@ -3,7 +3,7 @@
     background-size: cover;
     margin: 0 auto;
     text-align: center;
-    background-image: url(../images/header/Header_1.jpg);
+    background-image: url(../images/header/Header_1.jpg);     
 }
 
 .logo{
@@ -15,7 +15,7 @@
     color: #316B83;
     font-family: 'Great Vibes', cursive;
     font-size: 100px;
-    margin-top: 200px;
+
 }
 
 .subtitulo {
@@ -28,7 +28,7 @@
 .header .boton a {
     border-radius: 10%;
     font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 400px;
+    margin-bottom: 300px;
 }
 
 
