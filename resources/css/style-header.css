@@ -1,9 +1,8 @@
 .header {
-    background-image: url(../images/header/Header.jfif);
+    background-image: url(../images/header/header.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto; 
-    text-align: center;
 }
 
 .header .logo h3 {
