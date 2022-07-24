@@ -6,9 +6,9 @@
     background-image: url(../images/header/header.jpg);
 }
 
-.header .logo h3 {
+.logo{
     font-family: 'Kalam', cursive;
-    color: #0c2468;
+    color: #0d4c0b;
 }
 
 .titulo h1 {
@@ -46,7 +46,7 @@
     border-radius: 50%;
     margin: 0 6px;
     transition: transform 0.4s;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .social-networks a:hover {
@@ -57,16 +57,9 @@
     background-color: #3c70a4;
 }
 
-.social-networks a.twitter {
-    background-color: #5bd1d7;
-}
 
 .social-networks a.whatsapp {
     background-color: #4cba3b;
-}
-
-.social-networks a.youtube {
-    background-color: #c72c41;
 }
 
 .social-networks a.instagram {
