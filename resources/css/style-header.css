@@ -3,24 +3,25 @@
     background-size: cover;
     margin: 0 auto;
     text-align: center;
-    background-image: url(../images/header/header.jpg);
+    background-image: url(../images/header/Header_1.jpg);
 }
 
 .logo{
     font-family: 'Kalam', cursive;
-    color: #0d4c0b;
+    color: #143f51;
 }
 
 .titulo h1 {
-    color: #1f821c;
+    color: #316B83;
     font-family: 'Great Vibes', cursive;
     font-size: 100px;
+    margin-top: 200px;
 }
 
 .subtitulo {
     text-align: center;
     font-family: 'Kalam', cursive;
-    color: #0d4c0b;
+    color: #316B83;
     font-size: 20px;
 }
 
