@@ -1,7 +1,7 @@
-.header {  
+.header {
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 auto; 
+    margin: 0 auto;
     text-align: center;
     background-image: url(../images/header/header.jpg);
 }
@@ -9,20 +9,23 @@
 .header .logo h3 {
     font-family: 'Kalam', cursive;
     color: #0c2468;
-    font-size: 50px; 
-  
 }
 
-.header .titulo h1 {
-    color: #0c2468;
+.titulo h1 {
+    color: #1f821c;
     font-family: 'Great Vibes', cursive;
-   
+}
+
+.subtitulo {
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    color: #0d4c0b;
 }
 
 .header .boton a {
     border-radius: 10%;
     font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
 }
 
 
