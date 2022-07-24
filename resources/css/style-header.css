@@ -1,9 +1,10 @@
-.header {
+.header{
+    background-image: url(../images/header/Header_1.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
     text-align: center;
-    background-image: url(../images/header/Header_1.jpg);     
+  
 }
 
 .titulo h1 {
