@@ -9,17 +9,20 @@
 .header .logo h3 {
     font-family: 'Kalam', cursive;
     color: #0c2468;
+    padding-left: 650px;
 }
 
 .titulo h1 {
     color: #1f821c;
     font-family: 'Great Vibes', cursive;
+    font-size: 100px;
 }
 
 .subtitulo {
     text-align: center;
     font-family: 'Kalam', cursive;
     color: #0d4c0b;
+    font-size: 20px;
 }
 
 .header .boton a {
