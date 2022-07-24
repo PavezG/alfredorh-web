@@ -1,15 +1,15 @@
-.header {
-    background-image: url(../images/header/header.jpg);
+.header {  
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto; 
     text-align: center;
+    background-image: url(../images/header/header.jpg);
 }
 
 .header .logo h3 {
     font-family: 'Kalam', cursive;
     color: #0c2468;
-    font-size: 50px;
+    font-size: 50px; 
   
 }
 
