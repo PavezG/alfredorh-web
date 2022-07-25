@@ -1,22 +1,16 @@
-.section_2 {
-    text-align: center;
-    font-family: 'Courgette';
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../images/background/background-section-1.jpg);
-    margin: 10px;
-    max-width: 1500px;
-    margin: 0 auto;  
-    margin-top: 35px;
-}
-
-.section_2 .container img {   
-    height: 250px;
-    width: 250px;    
+.product-background{
     margin-top: 100px;
+    font-family: 'Kalam';    
 }
 
 
-.section_2 .container h6{
-    margin-bottom: 100px;
+.product-img {   
+    height: 300px;
+    width: 300px;      
+    border-radius: 100%;
 }
+
+.product-subtitule{
+    margin-top: 25px;
+}
+
