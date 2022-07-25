@@ -1,13 +1,25 @@
-.market-tittle {
-    padding-top: 35px;
-    padding-bottom: 25px;
-    font-family: 'Courgette';
+.card{
+    margin-top: 25px;
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 180px;
 }
 
+.card img{
+    max-width: 300px;
+    max-height: 300px;
+}
 
-.market-subtitle{
-    margin-top: 25px;
-    padding-bottom: 100px;
-    font-family: 'Kalam';
+.card h5{
+    text-align: center;
+}
+.card p{
+    text-align: center;
     
+}
+
+h2{
+text-align: center;
+font-family: 'Kalam', cursive;
+color: #316B83;
 }

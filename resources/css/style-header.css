@@ -1,13 +1,20 @@
-.contact-background {
+.navbar{
+    margin-top: 20px;
+}
+
+
+
+.contact-background {  
     background-repeat: no-repeat;
     background-size: cover;
     max-width: auto;
+
 }
 
 .contact-title {
-    color: #316B83;
+    color: #080808;
     font-family: 'Great Vibes', cursive;
-    font-size: 120px;
+    font-size: 100px;
     padding-top: 20px;
 }
 
@@ -22,17 +29,19 @@
     border-radius: 10%;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 50px;
+ 
+
 }
 
 .contact-btn-color {
     background-color: rgb(245, 104, 111) !important;
+
 }
 
 .contact-img {
-    border-radius: 100px;
-    max-width: 250px;
-    max-height: 250px;
-    margin-bottom: 50px;
+    max-width: 700px;
+    max-height: 700px;
+    margin-bottom: 150px;   
 }
 
 
@@ -54,7 +63,7 @@
     border-radius: 50%;
     margin: 0 6px;
     transition: transform 0.4s;
-    margin-top: 25px;
+  
 }
 
 .contact-social-networks a:hover {
@@ -77,4 +86,17 @@
             #285AEB 90%);
     outline-color: #a02d76;
     color: white;
+}
+
+/* carousel */
+
+.carousel img{
+    margin-top: 25px;
+    width: 500px;
+    height: 550px;
+}
+
+.nav{
+    margin-top: 25px;
+    background-color:#bdd5e0;   
 }

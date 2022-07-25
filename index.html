@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="./resources/css/styleSection-2.css">
     <link rel="stylesheet" href="./resources/css/style-footer.css">
 
+
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,83 +32,295 @@
 
     <div class="container">
 
-        <div class="row contact-background">
-            <section class="col xl12 l12 m12 s6 center-align">
-                <!-- Social Network -->
-                <div class="contact-social-networks">
-                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
-                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+
+        <!-- navbar -->
+        <nav class="navbar bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./resources/images/header/logo.png" alt="" width="50"
+                        height="50"> Alfredorh</a>
+                <div class="row">
+                    <section class="col-12 ">
+                        <!-- Social Network -->
+                        <div class="contact-social-networks">
+                            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </section>
                 </div>
-
-                <!-- Title and Contact -->
-                <h1 class="contact-title">Empieza tu día con energía</h1>
-                <p class="contact-subtitle">Lorem ipsum dolor sit amet cos liquid debitis ratione maxime
-                    vitae.Veritatis.</p>
+            </div>
+        </nav>
 
 
-                <div class="contact-btn center-align">
-                    <a class="waves-effect waves-light btn contact-btn-color">Contactame</a>
+
+
+        <div class="row">
+            <section class="col-12 text-center">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="./resources/images/gallery/slider_1.webp" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./resources/images/gallery/slider_2.jpeg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./resources/images/gallery/slider_3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-
-                <img class="contact-img" src="./resources/images/header/frutos-secos.jpg" alt="">
             </section>
-        </div>
-
-        <div class="row market-background">
-            <section class="col xl12 l12 m12 s6 center-align">
-
-                <h2 class="market-tittle" style="font-size:55px;">Nuestros productos</h2>
-                <div>
-                    <img class="responsive-img" src="./resources/images/gallery/Imagen panoramica.jpg" alt="">
-                    <p class="market-subtitle center-block" style="width: 80%; font-size: 25px; ">Lorem ipsum dolor, sit
-                        amet consectetur
-                        adipisicing elit. Obcaecati ullam
-                        sint, aut sapiente
-                        repudiandae
-                        velit in, nostrum quisquam non recusandae eligendi nam at alias quis tempora consectetur iure,
-                        quasi
-                        rem!
-                        Lorem ipsum dolor sit amet it soluta enim
-                        consequuntur
-                        pariatur saepe tenetur.</p>
-                </div>
-            </section>
-        </div>
-
-
-
-        <div class="row product-background">
-            <section class="col xl4 l4 m12 s12 center-align">
-                <h3>Llanquihue</h3>
-                <img class="product-img responsive-img" src="./resources/images/cards/Prueba.png" alt="">
-                <p class="product-subtitule center-block" style="width: 90%; font-size: 25px;">Lorem ipsum dolorta Lorem
-                    ipsum dolor, sit amet consectetur adipisicing</p>
-                <h6 style="color: rgb(144, 144, 10); font-size: 25px;">$1.900 - $5.550</h6>
-            </section>
-
-            <section class="col xl4 l4 m12 s12 center-align" style="margin-top: 200px;">
-                <h3>Queule</h3>
-                <img class="product-img responsive-img" src="./resources/images/cards/Prueba.png" alt="">
-                <p class="product-subtitule center-block" style="width: 90%; font-size: 25px;">Lorem ipsum dolorta Lorem
-                    ipsum dolor, sit amet consectetur adipisicing</p>
-                <h6 style="color: rgb(144, 144, 10); font-size: 25px;">$1.900 - $5.550</h6>
-            </section>
-
-            <section class="col xl4 l4 m12 s12 center-align">
-                <h3>Arrayan</h3>
-                <img class="product-img responsive-img" src="./resources/images/cards/Prueba.png" alt="">
-                <p class="product-subtitule center-block" style="width: 90%; font-size: 25px;">Lorem ipsum dolorta Lorem
-                    ipsum dolor, sit amet consectetur adipisicing</p>
-                <h6 style="color: rgb(144, 144, 10); font-size: 25px;">$1.900 - $5.550</h6>
-            </section>
-
-
         </div>
 
 
 
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Arrayan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Llanquihue</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Queule</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Maní confitado</a>
+            </li>
+        </ul>
 
+
+
+
+        <!-- Cards -->
+
+
+        <div class="row row-cols-1 row*-cols-md-3 g-4">
+            <h2 style="margin-top: 100px;" >Arrayan</h2>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./resources/images/cards/card-box-2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                            <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./resources/images/cards/card-box.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                            <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./resources/images/cards/card.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                            <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./resources/images/cards/card.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                            <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row row-cols-1 row*-cols-md-3 g-4">
+            <h2 style="margin-top: 50px;">Queule</h2>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./resources/images/cards/card-box-2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./resources/images/cards/card-box.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./resources/images/cards/card.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./resources/images/cards/card.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row*-cols-md-3 g-4">
+            <h2 style="margin-top: 50px;">Llanquihue</h2>
+            <div class="col-3">
+                <div class="card">                    
+                    <img src="./resources/images/cards/card-box-2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./resources/images/cards/card-box.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. </p>
+                        <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./resources/images/cards/card.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./resources/images/cards/card.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row*-cols-md-3 g-4">
+            <h2 style="margin-top: 50px;">Maní confitado</h2>
+            <div class="col-3">
+                <div class="card">                    
+                    <img src="./resources/images/cards/card-box-2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./resources/images/cards/card-box.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. </p>
+                        <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./resources/images/cards/card.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./resources/images/cards/card.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <p>$1.500 - 150gr</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
 
 
 
@@ -120,6 +333,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <link rel="stylesheet" href="fontawesome/js/all.min.js">
 <script src="./resources/js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 
 
 
