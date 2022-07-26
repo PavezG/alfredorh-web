@@ -3,7 +3,7 @@
     max-width: 300px;
     max-height: 300px;
     margin-bottom: 180px;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 .card img {
@@ -14,19 +14,19 @@
 .card h5 {
     text-align: center;
     color: rgb(29, 105, 29);
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .card p {
     text-align: center;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Raleway', sans-serif;
     color: rgb(29, 105, 29);
-    font-size: 25px;
+    font-size: 15px;
 }
 
 h2 {
     text-align: center;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Raleway', sans-serif;
     color: green;
 }
 
