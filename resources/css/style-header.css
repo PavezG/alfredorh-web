@@ -1,50 +1,12 @@
 
-
-
-
-
 .navbar {
-    margin-top: 20px;
+    margin-top: 10px;    
 }
 
-.contact-background {
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: auto;
-
-}
-
-.contact-title {
-    color: #080808;
-    font-family: 'Great Vibes', cursive;
-    font-size: 100px;
-    padding-top: 20px;
-}
-
-.contact-subtitle {
-    text-align: center;
-    font-family: 'Kalam', cursive;
-    color: #316B83;
-    font-size: 23px;
-}
-
-.contact-btn {
-    border-radius: 10%;
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 50px;
-
-
-}
-
-.contact-btn-color {
-    background-color: rgb(245, 104, 111) !important;
-
-}
-
-.contact-img {
-    max-width: 700px;
-    max-height: 700px;
-    margin-bottom: 150px;
+.navbar a {
+    color: green;
+    font-size: 40px;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 
@@ -52,6 +14,7 @@
 .contact-social-container {
     width: fit-content;
     margin: 0 auto;
+   
 }
 
 .contact-social-networks a {
@@ -66,6 +29,7 @@
     border-radius: 50%;
     margin: 0 6px;
     transition: transform 0.4s;
+    padding: 30px;
 
 }
 
@@ -75,11 +39,13 @@
 
 .contact-social-networks a.facebook {
     background-color: #3c70a4;
+    color: white;
 }
 
 
 .contact-social-networks a.whatsapp {
     background-color: #4cba3b;
+    color: white;
 }
 
 .contact-social-networks a.instagram {
@@ -99,7 +65,19 @@
     height: 550px; 
 }
 
+/* menú */
+
+
 .nav {
     margin-top: 25px;
     background-image: url(../images/background/background-cards.jpg);
+    padding: 15px;    
+    font-size: 40px;
+    
+    
+}
+
+.nav a{
+    color: green;
+    font-family: 'Shadows Into Light', cursive;
 }

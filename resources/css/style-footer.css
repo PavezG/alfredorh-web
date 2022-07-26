@@ -4,8 +4,10 @@
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: 'Kalam', cursive;
-    color: #316B83;
+    color: green;
     margin-top: 25px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
 }
 
 .nosotros {
@@ -29,9 +31,9 @@
     justify-content: center;
     text-decoration: none;
     font-size: 26px;
-    color: #fff;
+    color: white;
     border-radius: 50%;
-    outline: 2px solid #fff;
+    outline: 2px solid green;
     transition-duration: .25s;
 }
 
@@ -42,6 +44,7 @@
 .icon:hover i {
     animation: shake .25s;
 }
+
 
 .icon--instagram:hover {
     background-image: radial-gradient(circle at 30% 107%,
