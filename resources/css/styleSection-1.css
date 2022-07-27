@@ -30,3 +30,7 @@ h2 {
     color: green;
 }
 
+.card:hover img{
+    transform: scale(1.1);
+    transition-duration: .9s;  
+}
