@@ -1,7 +1,12 @@
-.cartita img {
-    max-width: 300px;
-    max-height: 300px;
-    margin-top: 15px;
+
+
+.card{
+    margin-top: 25px;
+   
+}
+
+.card-1{
+    height: 305px;
 }
 
 .card h5 {
@@ -23,7 +28,7 @@ h2 {
     color: green;
 }
 
-.cartita:hover img{
+.card:hover img {
     transform: scale(1.1);
-    transition-duration: .9s;  
+    transition-duration: .9s;
 }
