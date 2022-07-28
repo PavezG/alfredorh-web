@@ -1,6 +1,8 @@
-
-
 /* carousel */
+
+.carousel{
+    margin-bottom: 25px;
+}
 
 .carousel img {
     margin-top: 25px;
@@ -10,14 +12,9 @@
 
 /* menú */
 
-
-.nav {
-    margin-top: 25px;
+.nav {   
     background-color: #A6DCEF;
-
     font-size: 20px;
-
-
 }
 
 .nav a {
