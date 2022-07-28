@@ -1,12 +1,5 @@
-
-
-.card{
+.card {
     margin-top: 25px;
-   
-}
-
-.card-1{
-    height: 305px;
 }
 
 .card h5 {
@@ -22,13 +15,42 @@
     font-size: 15px;
 }
 
-h2 {
+.card-footer {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     color: green;
 }
 
-.card:hover img {
-    transform: scale(1.1);
-    transition-duration: .9s;
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%)
+}
+
+
+@media (min-width: 914px) and (max-width: 992px){
+    .card h5 {
+        text-align: center;
+        color: rgb(29, 105, 29);
+        font-size: 40px;
+    }
+}
+
+
+@media (min-width: 914px) and (max-width: 992px) {
+    .card p {
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        color: rgb(29, 105, 29);
+        font-size: 25px;
+
+    }
+}
+
+@media (min-width: 914px) and (max-width: 992px) {
+    .card-footer {
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        color: green;
+        font-size: 25px;
+    }
 }
