@@ -82,29 +82,16 @@
 
 /* The footer is fixed to the bottom of the page */
 
-
-
 .footer-distributed {
     background-color: #A6DCEF;
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
     font: bold 16px Roboto Condensed;
-    padding: 50px 50px 60px 50px;
-    margin-top: 25px;
     margin-bottom: 10px;
-}
-
-.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
-    display: inline-block;
-    vertical-align: top;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 /* Footer left */
 
-.footer-distributed .footer-left {
-    width: 30%;
-}
 
 .footer-distributed .navbar-brand{
     font-size: 35px;
@@ -139,9 +126,6 @@
 
 /* Footer Center */
 
-.footer-distributed .footer-center {
-    width: 35%;
-}
 
 .footer-distributed .footer-center i {
     background-color: #DDF3F5;
@@ -180,10 +164,6 @@
 }
 
 /* Footer Right */
-
-.footer-distributed .footer-right {
-    width: 30%;
-}
 
 .footer-distributed .footer-company-about {
     line-height: 20px;
