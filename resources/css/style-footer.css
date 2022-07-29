@@ -219,7 +219,7 @@
 
 @media (min-width: 914px) and (max-width: 992px) {
     .footer-distributed {
-        font-size: 40px; 
+        font-size: 30px; 
     }
 }
 
@@ -232,7 +232,7 @@
 
 @media (min-width: 914px) and (max-width: 992px) {
     .footer-left p {
-        font-size: 35px;
+        font-size: 25px;
         padding-bottom: 15px;
         text-align: justify;
     }
@@ -247,6 +247,6 @@
 
 @media (min-width: 914px) and (max-width: 992px) {
     .footer-right p {
-        font-size: 40px;   
+        font-size: 30px;   
     }
 }
