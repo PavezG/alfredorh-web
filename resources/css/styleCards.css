@@ -28,6 +28,11 @@
 
 
 @media (min-width: 914px) and (max-width: 992px){
+    .cartita{margin-bottom: 50px;}
+}
+
+
+@media (min-width: 914px) and (max-width: 992px){
     .card h5 {
         text-align: center;
         color: rgb(29, 105, 29);
@@ -54,3 +59,4 @@
         font-size: 25px;
     }
 }
+
