@@ -220,6 +220,7 @@
 @media (min-width: 914px) and (max-width: 992px) {
     .footer-distributed {
         font-size: 30px; 
+        font-family: 'Raleway', sans-serif;
     }
 }
 
@@ -235,6 +236,7 @@
         font-size: 25px;
         padding-bottom: 15px;
         text-align: justify;
+        font-family: 'Raleway', sans-serif;
     }
 }
 
@@ -242,11 +244,13 @@
     .footer-left a {
         font-size: 100px;
         padding-bottom: 20px;
+        font-family: 'Raleway', sans-serif;
     }
 }
 
 @media (min-width: 914px) and (max-width: 992px) {
     .footer-right p {
         font-size: 30px;   
+        font-family: 'Raleway', sans-serif;
     }
 }
