@@ -1,4 +1,3 @@
-
 /* redes sociales */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
@@ -16,12 +15,12 @@
     justify-content: center;
     text-decoration: none;
     font-size: 26px;
-    color: white; 
+    color: white;
     outline: 2px solid green;
-    transition-duration: .25s;  
+    transition-duration: .25s;
     width: 35px;
     height: 35px;
-    cursor: pointer; 
+    cursor: pointer;
     border-radius: 2px;
 }
 
@@ -76,7 +75,7 @@
 
 
 
- @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 
 
@@ -90,16 +89,20 @@
     padding-bottom: 10px;
 }
 
+
+
 /* Footer left */
 
 
-.footer-distributed .navbar-brand{
+.footer-distributed .navbar-brand {
     font-size: 35px;
     color: green;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.footer-distributed .footer-links a{ 
+
+
+.footer-distributed .footer-links a {
     font-size: 15px;
 }
 
@@ -146,7 +149,7 @@
 
 .footer-distributed .footer-center p {
     display: inline-block;
-    color:  green;
+    color: green;
     vertical-align: middle;
     margin: 0;
 }
@@ -160,10 +163,14 @@
 
 .footer-distributed .footer-center p a {
     color: #e0ac1c;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 /* Footer Right */
+
+.footer-right{
+    font-size: 20px;
+}
 
 .footer-distributed .footer-company-about {
     line-height: 20px;
@@ -182,7 +189,7 @@
 }
 
 .footer-distributed .footer-icons {
-    margin-top: 25px;   
+    margin-top: 25px;
 }
 
 .footer-distributed .footer-icons a {
@@ -208,15 +215,38 @@
     color: #3F71EA;
 }
 
-@media (max-width: 880px) {
-    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
-        display: block;
-        width: 100%;
-        margin-bottom: 40px;
-        text-align: center;
+
+
+@media (min-width: 914px) and (max-width: 992px) {
+    .footer-distributed {
+        font-size: 40px; 
     }
-    .footer-distributed .footer-center i {
-        margin-left: 0;
+}
+
+@media (min-width: 914px) and (max-width: 992px){
+    .footer-icons{
+        margin-bottom: 25px;
     }
-}       
-        
+}
+
+
+@media (min-width: 914px) and (max-width: 992px) {
+    .footer-left p {
+        font-size: 35px;
+        padding-bottom: 15px;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 914px) and (max-width: 992px) {
+    .footer-left a {
+        font-size: 100px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 914px) and (max-width: 992px) {
+    .footer-right p {
+        font-size: 40px;   
+    }
+}

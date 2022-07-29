@@ -21,3 +21,10 @@
     color: green;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+
+@media (min-width: 914px) and (max-width: 992px){
+    .nav {       
+        font-size: 40px;
+    }
+}
